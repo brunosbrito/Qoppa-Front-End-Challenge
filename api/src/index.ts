@@ -2,6 +2,7 @@ import express from 'express';
 import chalk from 'chalk';
 import { Request, Response } from 'express';
 import figlet from 'figlet';
+import cors from 'cors'
 
 await figlet('QoppaTech', (err, data) => {
     if(err) {
@@ -16,7 +17,7 @@ console.log("----------------------------------------------------------------")
 
 
 const app = express();
-
+app.use(cors());
 app.use( express.json() );
 
 app
