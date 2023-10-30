@@ -23,6 +23,6 @@ Formulario cadastro de usúario
     
    ```npm
    npm start
-ou
+
    ```yarn
     yarn start
