@@ -24,5 +24,7 @@ Formulario cadastro de usúario
    ```npm
    npm start
 
+Ou
+
    ```yarn
     yarn start
